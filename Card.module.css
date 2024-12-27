@@ -1,0 +1,49 @@
+/* Card Container */
+
+.card {
+  width: 300px; /* Fixed width for the card */
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 8px; /* Rounded corners */
+  overflow: hidden; /* Prevent content overflow */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 10); /* Subtle shadow */
+
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effect */
+}
+
+/* Hover Effect */
+.card:hover {
+  transform: translateY(-5px); /* Lift up slightly */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Stronger shadow */
+}
+
+/* Card Image */
+.cardimg {
+  width: 100%; /* Full width */
+  height: 330px; /* Fixed height */
+  /* Crop image to fit */
+}
+
+/* Card Content */
+.cardcontent {
+  padding: 16px; /* Space around content */
+}
+
+/* Card Title */
+.cardtitle {
+  font-size: 1rem; /* Larger font */
+  margin: 0 0 8px; /* Bottom spacing */
+  color: #333; /* Dark text */
+}
+.cardid {
+  font-size: 1.5rem; /* Larger font */
+  margin: 0 0 8px; /* Bottom spacing */
+  color: #333; /* Dark text */
+}
+
+/* Card Description */
+.carddescription {
+  font-size: 1rem; /* Normal font size */
+  color: #666; /* Gray text */
+  margin-bottom: 16px; /* Spacing from button */
+  line-height: 1.5; /* Readable line spacing */
+}
