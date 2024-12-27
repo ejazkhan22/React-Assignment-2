@@ -1,0 +1,20 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #ffff;
+}
+.main{
+  display: flex; /* Enable Flexbox */
+  gap: 16px; /* Space between cards */
+  justify-content: center; /* Align cards horizontally */
+  flex-wrap: wrap; /* Allow cards to wrap on smaller screens */
+  padding: 16px; /* Padding around the container */
+  /* Light background for contrast */
+
+}
+h1{
+text-align: center;
+color:#030810;
+
+}
